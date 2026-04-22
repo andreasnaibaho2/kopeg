@@ -12,7 +12,7 @@ from django.urls import reverse
 from collections import defaultdict
 
 # Koneksi ke MongoDB lokal
-client = MongoClient('mongodb://localhost:27017/')
+client = MongoClient('mongodb+srv://bayu000111222:bayu123@testcluster.o7txczn.mongodb.net/')
 db = client['db_kopeg']  # nama database kamu
 
 # Koleksi
